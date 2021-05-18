@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon ./src/server.js",
     "lint": "eslint ./src"
-  }, 
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,5 +17,7 @@
     "lint": "eslint ./",
     "nodemon": "^2.0.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@hapi/hapi": "^20.1.3"
+  }
 }
